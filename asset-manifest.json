@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/amazing-coffee/static/js/main.d97d693f.js",
+    "main.js": "/amazing-coffee/static/js/main.eabd418f.js",
     "index.html": "/amazing-coffee/index.html",
-    "main.d97d693f.js.map": "/amazing-coffee/static/js/main.d97d693f.js.map"
+    "main.eabd418f.js.map": "/amazing-coffee/static/js/main.eabd418f.js.map"
   },
   "entrypoints": [
-    "static/js/main.d97d693f.js"
+    "static/js/main.eabd418f.js"
   ]
 }
