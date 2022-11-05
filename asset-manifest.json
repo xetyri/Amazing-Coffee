@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/amazing-coffee/static/js/main.eabd418f.js",
+    "main.css": "/amazing-coffee/static/css/main.82ed6c08.css",
+    "main.js": "/amazing-coffee/static/js/main.c6f4868e.js",
     "index.html": "/amazing-coffee/index.html",
-    "main.eabd418f.js.map": "/amazing-coffee/static/js/main.eabd418f.js.map"
+    "main.82ed6c08.css.map": "/amazing-coffee/static/css/main.82ed6c08.css.map",
+    "main.c6f4868e.js.map": "/amazing-coffee/static/js/main.c6f4868e.js.map"
   },
   "entrypoints": [
-    "static/js/main.eabd418f.js"
+    "static/css/main.82ed6c08.css",
+    "static/js/main.c6f4868e.js"
   ]
 }
