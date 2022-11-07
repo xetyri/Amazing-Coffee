@@ -12,10 +12,13 @@
 
 :root {
     --color-white: #fff;
+    /* --color-light: rgb(190, 152, 109); */
+    --color-light: #e9c181;
     --color-bg-darck: rgb(32, 20, 13);
     --color-bg-light: rgb(79, 54, 39);
     --color-darck: rgb(21, 20, 20);
 
+    --transition: all 400ms ease;
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
@@ -31,7 +34,98 @@ html {
 
 body{
     font-family: 'Roboto Slab', serif;
-    background-color: var(--color-bg-light);
+    background-color: var(--color-bg-darck);
     color: var(--color-white);
     line-height: 1.7;
+}
+
+/*----------------------GENERAL------------------------*/
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5{
+    font-weight: 500;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+section{
+    margin-top: 8rem;
+}
+
+section > h2, 
+section > h5 {
+    text-align: center;
+    color: var(--color-white);
+}
+
+.text-darck {
+    color: var(--color-darck);
+}
+
+a {
+    color: var(--color-light);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+a.active {
+    color: var(--color-white);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-bg-darck);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-white);
+    transition: var(--transition);
+}
+
+.btn:hover{
+    background-color: var(--color-bg-light);
+    border-color: transparent;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*--------------------MEDIA---------------------*/
+
+@media screen and (max-width: 1024px){
+    .container{
+        width: var(--container-width-md);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section >h2 {
+        margin-bottom: 2rem;
+    }
 }

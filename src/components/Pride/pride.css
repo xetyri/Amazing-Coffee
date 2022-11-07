@@ -1,0 +1,100 @@
+.points-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/10.png);
+    background-repeat: round;
+    background-size: cover;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 120px;
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px black;
+}
+
+.points-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.points-ul {
+    display: block;
+}
+
+.points-li {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.points-icon {
+    width: 50px;
+    height: 50px;
+    margin: 20px 50px;
+}
+
+.points-img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 60px;
+    border-radius: 20%;
+    transform: rotate(-16deg);
+    transition: all 400ms ease;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.points-img:hover,
+.points-img:focus {
+    transform: rotate(0deg);
+}
+
+.ing-rotate {
+    transform: rotate(16deg);
+}
+
+.point-title {
+    text-shadow: 6px 6px 6px black;
+}
+
+.points-sub {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    width: 300px;
+    font-weight: 400;
+    font-size: 1rem;
+    text-shadow: 5px 5px 5px black;
+}
+
+.points-right {
+    margin-right: 50px;
+}
+
+.points-left {
+    margin-left: 70px;
+}
+
+.client-title {
+    align-items: center;
+    text-align: center;
+    text-shadow: 6px 6px 6px black;
+    margin: 10px 30px;
+}
+
+.client-icon {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    transition: all 600ms ease;
+}
+
+.client-icon:hover,
+.client-icon:focus {
+    transform: rotate(1turn);
+}
+
+.icon-bg-radius{
+    border-radius: 50px;
+}

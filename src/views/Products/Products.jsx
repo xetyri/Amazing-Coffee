@@ -1,5 +1,9 @@
 import React from 'react'
 
 export function Products() {
-    return <h1>Products</h1>
+    return (
+        <section>
+        <h1>Products</h1>
+        </section>
+    )
 }

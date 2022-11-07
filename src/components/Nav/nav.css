@@ -1,0 +1,40 @@
+nav {
+    background: #1e1e1e;
+    width: max-content;
+    display: block;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+ul {
+    display: flex;
+}
+
+.logo {
+    position: absolute;
+    width:90px;
+    height: 90px;
+    border-radius: 50px;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-text {
+    padding: 1rem 1.2rem;
+}
+
+.nav-text-left {
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+}
+
+.nav-text-right {
+    padding-right: 4rem;
+    padding-bottom: 2rem; 
+}

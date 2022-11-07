@@ -1,5 +1,9 @@
 import React from 'react'
 
 export function About() {
-    return <h1>About</h1>
+    return (
+        <section>
+        <h1>About</h1>
+        </section>
+    )
 }
