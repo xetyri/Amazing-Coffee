@@ -1,13 +1,33 @@
 {
   "files": {
-    "main.css": "/amazing-coffee/static/css/main.82ed6c08.css",
-    "main.js": "/amazing-coffee/static/js/main.c6f4868e.js",
+    "main.css": "/amazing-coffee/static/css/main.17011f6c.css",
+    "main.js": "/amazing-coffee/static/js/main.5fdad5b0.js",
+    "static/media/10.png": "/amazing-coffee/static/media/10.4f27f557cd5664ca62c5.png",
+    "static/media/37.jpg": "/amazing-coffee/static/media/37.8ffd95a2ede3f561d22f.jpg",
+    "static/media/38.jpg": "/amazing-coffee/static/media/38.90a652c7ad148ed17847.jpg",
+    "static/media/21.jpg": "/amazing-coffee/static/media/21.ef6b141899a3152c24e3.jpg",
+    "static/media/33.jpg": "/amazing-coffee/static/media/33.60285715732e8aafb9b7.jpg",
+    "static/media/36.jpg": "/amazing-coffee/static/media/36.0df3c1a5bd3316738649.jpg",
+    "static/media/8.jpg": "/amazing-coffee/static/media/8.d0303ea007bf7b6e20fc.jpg",
+    "static/media/12.jpg": "/amazing-coffee/static/media/12.cf3b0b00579b0479626a.jpg",
+    "static/media/2.jpg": "/amazing-coffee/static/media/2.e45a5566e3b3a8ab78e1.jpg",
+    "static/media/Logotype.png": "/amazing-coffee/static/media/Logotype.a9543db56f243ca1ba7e.png",
+    "static/media/tim-hortons.svg": "/amazing-coffee/static/media/tim-hortons.e437ecc712eab04d634722584480ccc5.svg",
+    "static/media/costa.svg": "/amazing-coffee/static/media/costa.1a68f729f7b395ded6ead4058b2f338d.svg",
+    "static/media/starbucks.svg": "/amazing-coffee/static/media/starbucks.7939faca3e5c9eff07ac06684e4d1895.svg",
+    "static/media/dunkin-donuts.svg": "/amazing-coffee/static/media/dunkin-donuts.71a8a383239dfdbac60f4803370787fc.svg",
+    "static/media/Cup.svg": "/amazing-coffee/static/media/Cup.ee082d112aec31e82ca55d419f130794.svg",
+    "static/media/Label.svg": "/amazing-coffee/static/media/Label.56a34a5b03d9f4f42327ae592af3add8.svg",
+    "static/media/CoffeeSeed.svg": "/amazing-coffee/static/media/CoffeeSeed.deeec0b3e49ce477fb331420cdc590be.svg",
+    "static/media/Like.svg": "/amazing-coffee/static/media/Like.5ecb9021d3fb17faeeaf7eac2353de18.svg",
+    "static/media/Medal.svg": "/amazing-coffee/static/media/Medal.73513240138692f2ac357743674a627b.svg",
     "index.html": "/amazing-coffee/index.html",
-    "main.82ed6c08.css.map": "/amazing-coffee/static/css/main.82ed6c08.css.map",
-    "main.c6f4868e.js.map": "/amazing-coffee/static/js/main.c6f4868e.js.map"
+    "static/media/mcdonalds.svg": "/amazing-coffee/static/media/mcdonalds.4f0a5d24204bf24b11e358ef81e56515.svg",
+    "main.17011f6c.css.map": "/amazing-coffee/static/css/main.17011f6c.css.map",
+    "main.5fdad5b0.js.map": "/amazing-coffee/static/js/main.5fdad5b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.82ed6c08.css",
-    "static/js/main.c6f4868e.js"
+    "static/css/main.17011f6c.css",
+    "static/js/main.5fdad5b0.js"
   ]
 }
