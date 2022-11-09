@@ -67,7 +67,7 @@ export function Pride() {
                 </div>
             </section>
             <section className='container points-ul'>
-                <h2 className='points'>Those who already chose us</h2>
+                <h2 className='points'>Those who already chose us:</h2>
                 <ul className='points-block'>
                     <li className='client-title'>
                         <img src={Starbucks} alt="Icon Starbucks" className='client-icon' />

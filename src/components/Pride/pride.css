@@ -1,9 +1,9 @@
 .points-bg {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/10.png);
-    background-repeat: round;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    margin-bottom: 10px;
+    width: 100%;
 }
 
 .points {
@@ -19,10 +19,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .points-ul {
     display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 .points-li {
@@ -97,4 +100,90 @@
 
 .icon-bg-radius{
     border-radius: 50px;
+}
+
+/*--------------------MEDIA---------------------*/
+
+@media screen and (max-width: 1024px) {
+    .points-img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 40px;
+    }   
+    .points-sub {
+        padding-top: 10px;
+        padding-bottom: 40px;
+        width: 250px;
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+    .points-icon {
+        width: 45px;
+        height: 45px;
+        margin: 20px 40px;
+    }   
+    .points-right {
+        margin-right: 20px;
+    }
+    .points-left {
+        margin-left: 30px;
+    }
+    .points-li {
+        padding-bottom: 40px;
+    }
+    .points {
+        padding-top: 140px;
+        padding-bottom: 80px;
+        font-size: 1.5rem;
+    }
+    .client-icon {
+        width: 80px;
+        height: 80px;
+        margin: 10px auto;
+    }
+    .client-title {
+        margin: 5px 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .points-img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 40px;
+    }
+    .points-sub {
+        width: 200px;
+        font-weight: 400;
+        font-size: 0.5rem;
+    }
+
+    .points-icon {
+        width: 40px;
+        height: 40px;
+        margin: 20px 30px;
+    }
+    .points-right {
+        margin-right: 0;
+    }
+
+    .points-left {
+        margin-left: 0;
+    }
+    .points-li {
+        padding-bottom: 10px;
+    }
+    .points {
+        padding-top: 90px;
+        padding-bottom: 20px;
+        font-size: 1rem;
+    }
+    .client-icon {
+        width: 60px;
+        height: 60px;
+        margin: 5px auto;
+    }
+    .client-title {
+        margin: 0 30px;
+    }
 }

@@ -34,7 +34,8 @@ html {
 
 body{
     font-family: 'Roboto Slab', serif;
-    background-color: var(--color-bg-darck);
+    background-color: var(--color-darck);
+    width: auto;
     color: var(--color-white);
     line-height: 1.7;
 }
@@ -50,6 +51,7 @@ h2,
 h3, 
 h4, 
 h5{
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -111,6 +113,14 @@ img {
 /*--------------------MEDIA---------------------*/
 
 @media screen and (max-width: 1024px){
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 1rem;
+    }
+
     .container{
         width: var(--container-width-md);
     }
@@ -121,6 +131,13 @@ img {
 }
 
 @media screen and (max-width: 600px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 0.7rem;
+    }
     .container {
         width: var(--container-width-sm);
     }

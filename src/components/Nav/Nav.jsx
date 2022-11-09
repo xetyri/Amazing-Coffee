@@ -2,9 +2,10 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Logotype from '../../assets/Logotype.png'
 import './nav.css'
+import '../../index.css'
 
 export function Nav() {
-    return(
+    return (
         <nav>
             <ul>
                 <li className='nav-text'>
@@ -31,6 +32,6 @@ export function Nav() {
                     </NavLink>
                 </li>
             </ul>
-        </nav>
+        </nav> 
     )
 }

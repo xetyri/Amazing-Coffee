@@ -7,8 +7,12 @@ nav {
     z-index: 2;
     position: fixed;
     left: 50%;
-    top: 0;
     transform: translateX(-50%);
+}
+
+.nav-position{
+    display: block;
+    
 }
 
 ul {
@@ -38,3 +42,48 @@ ul {
     padding-right: 4rem;
     padding-bottom: 2rem; 
 }
+
+/*--------------------MEDIA---------------------*/
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        width: 70px;
+        height: 70px;
+        top: 3.5px;
+    }
+    .nav-text {
+        padding: 0.8rem 1rem;
+        font-size: 0.8rem;
+    }
+    .nav-text-left {
+        padding-left: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .nav-text-right {
+        padding-right: 3rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 50px;
+        height: 50px;
+        top: 2px;
+    }
+    .nav-text {
+        padding: 0.7rem 0.7rem;
+        font-size: 0.5rem;
+    }
+    .nav-text-left {
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .nav-text-right {
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+    }
+}
+

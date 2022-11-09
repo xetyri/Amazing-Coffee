@@ -4,10 +4,13 @@ import { About } from "./views/About/About";
 import { Story } from "./views/Story/Story";
 import { Products } from "./views/Products/Products";
 import { Nav } from "./components/Nav/Nav";
+import { Update } from "./components/Update/Update";
+
 
 function App() {
     return (
         <BrowserRouter basename="/amazing-coffee">
+            <Update/>
             <Nav/>
             <Routes>
                 <Route path="/" element={<Nav />} />

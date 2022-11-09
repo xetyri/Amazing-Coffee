@@ -1,6 +1,24 @@
 .bg {
     background: #1e1e1e;
-    background-repeat: round;
+    width: 100%;
+}
+
+.scroll {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    background: rgb(21, 20, 20);
+    position: fixed;
+    right: 15vh;
+    bottom: 10vh;
+    transition: all 400ms ease;
+    opacity: 0.5;
+}
+
+.scroll:hover,
+.scroll:focus {
+    opacity: 0.8;
 }
 
 /*------HERO------*/
@@ -11,6 +29,7 @@
     background-size: cover;
     height: 800px;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .hero {
@@ -40,16 +59,92 @@
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 50px;
     padding: 1rem 1.2rem;
-    
+    transition: all 400ms ease;
+    font-size: 1rem;
 }
 .hero-btn:hover {
     background-color: rgba(0, 0, 0, 0.76);
+}
+
+/*--------------------MEDIA---------------------*/
+
+@media screen and (max-width: 1024px) {
+    .bg {
+        width: auto;
+    }
+    .scroll {
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        position: fixed;
+        right: 10vh;
+        bottom: 10vh;
+    }
+    .hero-bg {
+        height: 600px;
+        margin-bottom: 10px;
+        max-width: 1024px;
+        width: 100%;
+    }
+    .hero {
+        padding-top: 180px;
+        padding-bottom: 50px;
+        font-size: 2rem;
+    }
+    .hero-sub {
+        padding-bottom: 50px;
+        width: 550px;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+    .hero-btn {
+        padding: 0.8rem 1rem;
+        transition: all 400ms ease;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bg {
+        width: auto;
+    }
+    .scroll {
+        width: 10px;
+        height: 10px;
+        padding: 2px;
+    }
+    .hero-bg {
+        height: 400px;
+        margin-bottom: 10px;
+        max-width: 600px;
+        width: 100%;
+    }
+    .hero {
+        padding-top: 120px;
+        padding-bottom: 30px;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .hero-sub {
+        padding-bottom: 30px;
+        width: 250px;
+        font-weight: 400;
+        font-size: 0.5rem;
+    }
+
+    .hero-btn {
+        padding: 0.5rem 0.7rem;
+        transition: all 400ms ease;
+        font-size: 0.4rem;
+    }
 }
 
 /*------ABOUT------*/
 
 .about-bg {
     height: 900px;
+    width: 100%;
     margin-bottom: 10px;
     animation: animate 16s ease-in-out infinite;
     background-size: cover;
@@ -57,27 +152,27 @@
 
 @keyframes animate {
     0%,100%{
-        background: url(../../assets/12.jpg);
+        background:url(../../assets/12.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     20%{
-        background: url(../../assets/33.jpg);
+        background:  url(../../assets/33.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     40%{
-        background: url(../../assets/38.jpg);
+        background:  url(../../assets/38.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     60%{
-        background: url(../../assets/36.jpg);
+        background: url(../../assets/41.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     80%{
-        background: url(../../assets/37.jpg);
+        background: url(../../assets/42.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -95,11 +190,46 @@
 .about-sub {
     margin: 0 auto;
     padding-bottom: 70px;
-    width: 900px;
+    max-width: 900px;
     font-weight: 500;
     text-align: center;
     font-size: 1.2rem;
-    text-shadow: 5px 5px 5px black;
 }
 
-/*------POINTS------*/
+/*--------------------MEDIA---------------------*/
+
+@media screen and (max-width: 1024px) {
+    .about-bg {
+        height: 600px;
+    }
+    .about {
+        padding-top: 140px;
+        padding-bottom: 80px;
+        font-size: 1.5rem;
+    }
+    .about-sub {
+        padding-top: 10px;
+        padding-bottom: 40px;
+        width: 250px;
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-bg {
+        height: 400px;
+    }
+    .about {
+        padding-top: 90px;
+        padding-bottom: 20px;
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .about-sub {
+        width: 200px;
+        font-weight: 400;
+        font-size: 0.5rem;
+    }
+}
