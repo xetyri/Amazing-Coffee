@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amazing-coffee/static/css/main.29135410.css",
-    "main.js": "/amazing-coffee/static/js/main.673bc49e.js",
+    "main.css": "/amazing-coffee/static/css/main.29e93e5f.css",
+    "main.js": "/amazing-coffee/static/js/main.352f49c4.js",
     "static/media/10.png": "/amazing-coffee/static/media/10.4f27f557cd5664ca62c5.png",
     "static/media/13.jpg": "/amazing-coffee/static/media/13.2f73717c6187b0cf17be.jpg",
     "static/media/41.jpg": "/amazing-coffee/static/media/41.772403137406f4ce1efc.jpg",
@@ -25,11 +25,11 @@
     "static/media/Medal.svg": "/amazing-coffee/static/media/Medal.73513240138692f2ac357743674a627b.svg",
     "index.html": "/amazing-coffee/index.html",
     "static/media/mcdonalds.svg": "/amazing-coffee/static/media/mcdonalds.4f0a5d24204bf24b11e358ef81e56515.svg",
-    "main.29135410.css.map": "/amazing-coffee/static/css/main.29135410.css.map",
-    "main.673bc49e.js.map": "/amazing-coffee/static/js/main.673bc49e.js.map"
+    "main.29e93e5f.css.map": "/amazing-coffee/static/css/main.29e93e5f.css.map",
+    "main.352f49c4.js.map": "/amazing-coffee/static/js/main.352f49c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.29135410.css",
-    "static/js/main.673bc49e.js"
+    "static/css/main.29e93e5f.css",
+    "static/js/main.352f49c4.js"
   ]
 }
