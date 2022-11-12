@@ -1,0 +1,121 @@
+.bg-story {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/13.jpg) center no-repeat;
+    width: 100%;
+    height: 130vh;
+    top:0;
+    background-size: cover;
+    margin-bottom: 10px;
+    
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.main .center {
+    position: absolute;
+    top: 25vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 15;
+}
+
+.subtitle-head {
+    background-color: rgba(0, 0, 0, 0.516);
+    border-radius: 50px;
+    padding: 20px;
+    width: 70%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+    animation: showRight 2s;
+    margin-left: 15%;
+}
+
+@keyframes showRight {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 0;
+    }
+}
+
+.title-head {
+    color: #fff;
+    margin-bottom: 60px;
+    position: relative;
+    animation: showLeft 2s;
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 5px 5px 5px black;
+    z-index: 1;
+}
+
+@keyframes showLeft {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+.text {
+    z-index: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .subtitle-head {
+        padding: 20px;
+        width: 90%;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .subtitle-head {
+        padding: 20px;
+        width: 90%;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 5%;
+    }
+
+    .title-head {
+        margin-bottom: 30px;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .main .center {
+        top: 20vh;
+    }
+}

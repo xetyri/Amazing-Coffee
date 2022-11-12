@@ -1,0 +1,110 @@
+/*------ABOUT------*/
+
+.about-bg {
+    position: relative;
+    height: 120vh;
+    margin-bottom: 10px;
+    animation: animate 16s ease-in-out infinite;
+    width: 100%;
+    top: 0;
+    background-size: cover;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        background: url(../../assets/12.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    20% {
+        background: url(../../assets/33.jpg) center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    40% {
+        background: url(../../assets/38.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    60% {
+        background: url(../../assets/41.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    80% {
+        background: url(../../assets/42.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    padding-top: 25vh;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px black;
+}
+
+.about-sub {
+    margin: 0 auto;
+    padding-bottom: 70px;
+    max-width: 900px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/*--------------------MEDIA---------------------*/
+
+@media screen and (max-width: 1024px) {
+    .about-bg {
+        height: 130vh;
+    }
+
+    .about {
+        padding-top: 22vh;
+        padding-bottom: 70px;
+        font-size: 2rem;
+    }
+
+    .about-sub {
+        padding-bottom: 40px;  
+        padding: 20px;
+        width: 90%;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .about-bg {
+        height: 140vh;
+    }
+
+    .about {
+        padding-top: 15vh;
+        padding-bottom: 60px;
+        font-weight: 500;
+        font-size: 1.9rem;
+        margin: 0;
+    }
+
+    .about-sub {
+        padding-bottom: 50px;
+        padding: 20px;
+        width: 90%;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 5%;
+    }
+}

@@ -1,5 +1,5 @@
 .points-bg {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/10.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/10.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -106,16 +106,16 @@
 
 @media screen and (max-width: 1024px) {
     .points-img {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         margin-bottom: 40px;
     }   
     .points-sub {
         padding-top: 10px;
         padding-bottom: 40px;
-        width: 250px;
+        width: 400px;
         font-weight: 400;
-        font-size: 0.8rem;
+        font-size: 1.3rem;
     }
     .points-icon {
         width: 45px;
@@ -123,18 +123,18 @@
         margin: 20px 40px;
     }   
     .points-right {
-        margin-right: 20px;
+        margin-right: 40px;
     }
     .points-left {
-        margin-left: 30px;
+        margin-left: 50px;
     }
     .points-li {
         padding-bottom: 40px;
     }
     .points {
-        padding-top: 140px;
+        padding-top: 22vh;
         padding-bottom: 80px;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .client-icon {
         width: 80px;
@@ -148,14 +148,14 @@
 
 @media screen and (max-width: 600px) {
     .points-img {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         margin-bottom: 40px;
     }
     .points-sub {
         width: 200px;
         font-weight: 400;
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 
     .points-icon {
@@ -164,7 +164,7 @@
         margin: 20px 30px;
     }
     .points-right {
-        margin-right: 0;
+        margin-right: 20px;
     }
 
     .points-left {
@@ -174,13 +174,13 @@
         padding-bottom: 10px;
     }
     .points {
-        padding-top: 90px;
+        padding-top: 18vh;
         padding-bottom: 20px;
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .client-icon {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
         margin: 5px auto;
     }
     .client-title {

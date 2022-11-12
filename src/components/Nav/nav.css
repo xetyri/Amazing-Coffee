@@ -4,7 +4,7 @@ nav {
     display: block;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    z-index: 2;
+    z-index: 3;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -21,8 +21,8 @@ ul {
 
 .logo {
     position: absolute;
-    width:90px;
-    height: 90px;
+    width:95px;
+    height: 95px;
     border-radius: 50px;
     top: 5px;
     left: 50%;
@@ -31,6 +31,7 @@ ul {
 
 .nav-text {
     padding: 1rem 1.2rem;
+    font-size: 1.2rem;
 }
 
 .nav-text-left {
@@ -47,43 +48,43 @@ ul {
 
 @media screen and (max-width: 1024px) {
     .logo {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
         top: 3.5px;
     }
     .nav-text {
         padding: 0.8rem 1rem;
-        font-size: 0.8rem;
+        font-size: 1.3rem;
     }
     .nav-text-left {
-        padding-left: 3rem;
+        padding-left: 3.8rem;
         padding-bottom: 1.5rem;
     }
 
     .nav-text-right {
-        padding-right: 3rem;
+        padding-right: 3.8rem;
         padding-bottom: 1.5rem;
     }
 }
 
 @media screen and (max-width: 600px) {
     .logo {
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
         top: 2px;
     }
     .nav-text {
         padding: 0.7rem 0.7rem;
-        font-size: 0.5rem;
+        font-size: 0.9rem;
     }
     .nav-text-left {
-        padding-left: 2rem;
-        padding-bottom: 1rem;
+        padding-left: 3rem;
+        padding-bottom: 1.2rem;
     }
 
     .nav-text-right {
-        padding-right: 2rem;
-        padding-bottom: 1rem;
+        padding-right: 3rem;
+        padding-bottom: 1.2rem;
     }
 }
 

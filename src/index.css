@@ -110,6 +110,12 @@ img {
     object-fit: cover;
 }
 
+.line {
+    margin: 25px 0;
+    width: 100%;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
 /*--------------------MEDIA---------------------*/
 
 @media screen and (max-width: 1024px){
@@ -118,7 +124,7 @@ img {
     h3,
     h4,
     h5 {
-        font-size: 1rem;
+        font-size: 1.8rem;
     }
 
     .container{
@@ -128,6 +134,10 @@ img {
     section {
         margin-top: 6rem;
     }
+
+    .line {
+        margin: 20px 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -136,7 +146,7 @@ img {
     h3,
     h4,
     h5 {
-        font-size: 0.7rem;
+        font-size: 1.2rem;
     }
     .container {
         width: var(--container-width-sm);

@@ -1,0 +1,146 @@
+.background-story{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../../assets/201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.picture-block{
+    display: inline-block;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    transition: all 400ms ease;
+}
+
+.picture-block:hover,
+.picture-block:focus {
+    transform: scale(1.2);
+}
+
+.picture{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.picture-block-cybe {
+    display: inline-block;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    transition: all 400ms ease;
+}
+
+.picture-block-cybe:hover,
+.picture-block-cybe:focus {
+    transform: scale(1.2);
+}
+
+.picture-cybe {
+    width: 100%;
+    height: 100%;
+    border-radius: 45px;
+}
+
+.info-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.story-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 26vh;
+    padding-bottom: 10vh;
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 5px 5px 5px black;
+}
+
+.info-text{
+    margin: 30px;
+    background: rgba(0, 0, 0, 0.655);
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+.info-title{
+    text-align: center;
+}
+
+.info-subtitle{
+    width: 500px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .story-title {
+        padding-top: 26vh;
+        padding-bottom: 8vh;
+        font-size: 2.5rem;
+    }
+    .picture-block{
+        width: 350px;
+        height: 350px;
+        margin: 30px;
+    }
+    .picture-block-cybe {
+        width: 350px;
+        height: 350px;
+        margin: 30px;
+    }
+    .info-text {
+        padding: 30px 8px;
+        margin: 30px;
+    }
+    .info-subtitle {
+        width: 90%;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .story-title {
+        padding-top: 26vh;
+        padding-bottom: 4vh;
+        font-size: 2rem;
+    }
+
+    .picture-block {
+        border: 2px solid rgb(255, 255, 255);
+        width: 250px;
+        height: 250px;
+        margin: 30px;
+    }
+
+    .picture-block-cybe {
+        border: 2px solid rgb(255, 255, 255);
+        width: 250px;
+        height: 250px;
+        margin: 30px;
+    }
+
+    .info-text {
+        padding: 20px 8px;
+        margin: 20px 5px;
+    }
+
+    .info-subtitle {
+        width: 90%;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 5%;
+    }
+}
