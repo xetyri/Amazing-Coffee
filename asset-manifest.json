@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/amazing-coffee/static/css/main.29e93e5f.css",
-    "main.js": "/amazing-coffee/static/js/main.352f49c4.js",
-    "static/media/10.png": "/amazing-coffee/static/media/10.4f27f557cd5664ca62c5.png",
+    "main.css": "/amazing-coffee/static/css/main.4f81c138.css",
+    "main.js": "/amazing-coffee/static/js/main.3c672b55.js",
     "static/media/13.jpg": "/amazing-coffee/static/media/13.2f73717c6187b0cf17be.jpg",
+    "static/media/10.jpg": "/amazing-coffee/static/media/10.e6cbf0050a96c172f5f3.jpg",
+    "static/media/306.jpg": "/amazing-coffee/static/media/306.80bfdfb5d4440e2b2876.jpg",
     "static/media/41.jpg": "/amazing-coffee/static/media/41.772403137406f4ce1efc.jpg",
+    "static/media/5.png": "/amazing-coffee/static/media/5.928de43ee7f9cc3fead0.png",
+    "static/media/201.jpg": "/amazing-coffee/static/media/201.03f1be0a18dc517c5545.jpg",
     "static/media/21.jpg": "/amazing-coffee/static/media/21.ef6b141899a3152c24e3.jpg",
+    "static/media/207.jpg": "/amazing-coffee/static/media/207.ad97b84d2be49d0308a9.jpg",
     "static/media/42.jpg": "/amazing-coffee/static/media/42.43a9c537637829a62118.jpg",
     "static/media/38.jpg": "/amazing-coffee/static/media/38.00f20d35f5e5fc48bb62.jpg",
     "static/media/33.jpg": "/amazing-coffee/static/media/33.559a09219409ae975241.jpg",
+    "static/media/15.jpg": "/amazing-coffee/static/media/15.462099575dd7d2c4c8ce.jpg",
     "static/media/8.jpg": "/amazing-coffee/static/media/8.d0303ea007bf7b6e20fc.jpg",
+    "static/media/1.jpg": "/amazing-coffee/static/media/1.937be5e9d10010c39dcd.jpg",
+    "static/media/25.jpg": "/amazing-coffee/static/media/25.a3ebe21167460a96e771.jpg",
     "static/media/12.jpg": "/amazing-coffee/static/media/12.2a480ffb37e2a1ad717c.jpg",
     "static/media/2.jpg": "/amazing-coffee/static/media/2.e45a5566e3b3a8ab78e1.jpg",
+    "static/media/206.png": "/amazing-coffee/static/media/206.3386c06d73008d8e7962.png",
+    "static/media/7.jpg": "/amazing-coffee/static/media/7.9e8c04e0fb98b915bcd8.jpg",
     "static/media/Logotype.png": "/amazing-coffee/static/media/Logotype.a9543db56f243ca1ba7e.png",
     "static/media/tim-hortons.svg": "/amazing-coffee/static/media/tim-hortons.e437ecc712eab04d634722584480ccc5.svg",
     "static/media/costa.svg": "/amazing-coffee/static/media/costa.1a68f729f7b395ded6ead4058b2f338d.svg",
@@ -19,17 +28,20 @@
     "static/media/dunkin-donuts.svg": "/amazing-coffee/static/media/dunkin-donuts.71a8a383239dfdbac60f4803370787fc.svg",
     "static/media/Cup.svg": "/amazing-coffee/static/media/Cup.ee082d112aec31e82ca55d419f130794.svg",
     "static/media/Label.svg": "/amazing-coffee/static/media/Label.56a34a5b03d9f4f42327ae592af3add8.svg",
+    "static/media/mountain.svg": "/amazing-coffee/static/media/mountain.6ac52bcf36273ada505d74158b29ff0c.svg",
     "static/media/CoffeeSeed.svg": "/amazing-coffee/static/media/CoffeeSeed.deeec0b3e49ce477fb331420cdc590be.svg",
     "static/media/Like.svg": "/amazing-coffee/static/media/Like.5ecb9021d3fb17faeeaf7eac2353de18.svg",
     "static/media/arrow.svg": "/amazing-coffee/static/media/arrow.c81a74b06902e570da79e7cda9f81103.svg",
     "static/media/Medal.svg": "/amazing-coffee/static/media/Medal.73513240138692f2ac357743674a627b.svg",
+    "static/media/sun.svg": "/amazing-coffee/static/media/sun.9053a3a65ec30f42cebef57b3a730fb0.svg",
+    "static/media/close.svg": "/amazing-coffee/static/media/close.e6042815115b60542530e3b4c21a9eff.svg",
     "index.html": "/amazing-coffee/index.html",
     "static/media/mcdonalds.svg": "/amazing-coffee/static/media/mcdonalds.4f0a5d24204bf24b11e358ef81e56515.svg",
-    "main.29e93e5f.css.map": "/amazing-coffee/static/css/main.29e93e5f.css.map",
-    "main.352f49c4.js.map": "/amazing-coffee/static/js/main.352f49c4.js.map"
+    "main.4f81c138.css.map": "/amazing-coffee/static/css/main.4f81c138.css.map",
+    "main.3c672b55.js.map": "/amazing-coffee/static/js/main.3c672b55.js.map"
   },
   "entrypoints": [
-    "static/css/main.29e93e5f.css",
-    "static/js/main.352f49c4.js"
+    "static/css/main.4f81c138.css",
+    "static/js/main.3c672b55.js"
   ]
 }
