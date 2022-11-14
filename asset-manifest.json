@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/amazing-coffee/static/css/main.2357c428.css",
-    "main.js": "/amazing-coffee/static/js/main.3c672b55.js",
+    "main.css": "/amazing-coffee/static/css/main.4e839bcc.css",
+    "main.js": "/amazing-coffee/static/js/main.1d0379cd.js",
+    "static/media/403.jpg": "/amazing-coffee/static/media/403.fd966db4a043dc2f1a26.jpg",
     "static/media/13.jpg": "/amazing-coffee/static/media/13.2f73717c6187b0cf17be.jpg",
+    "static/media/402.jpg": "/amazing-coffee/static/media/402.86f506b3c65e3cd41b46.jpg",
     "static/media/10.jpg": "/amazing-coffee/static/media/10.e6cbf0050a96c172f5f3.jpg",
+    "static/media/410.jpg": "/amazing-coffee/static/media/410.3471ace5ff71e462c515.jpg",
+    "static/media/401.jpg": "/amazing-coffee/static/media/401.c4220c10ee8d7f625805.jpg",
+    "static/media/02.jpg": "/amazing-coffee/static/media/02.e7f1ddcc23db9c4d3769.jpg",
     "static/media/306.jpg": "/amazing-coffee/static/media/306.80bfdfb5d4440e2b2876.jpg",
     "static/media/41.jpg": "/amazing-coffee/static/media/41.772403137406f4ce1efc.jpg",
     "static/media/5.png": "/amazing-coffee/static/media/5.928de43ee7f9cc3fead0.png",
@@ -16,12 +21,16 @@
     "static/media/15.jpg": "/amazing-coffee/static/media/15.462099575dd7d2c4c8ce.jpg",
     "static/media/8.jpg": "/amazing-coffee/static/media/8.d0303ea007bf7b6e20fc.jpg",
     "static/media/1.jpg": "/amazing-coffee/static/media/1.937be5e9d10010c39dcd.jpg",
+    "static/media/03.jpg": "/amazing-coffee/static/media/03.486956b81124937ec999.jpg",
     "static/media/25.jpg": "/amazing-coffee/static/media/25.a3ebe21167460a96e771.jpg",
     "static/media/12.jpg": "/amazing-coffee/static/media/12.2a480ffb37e2a1ad717c.jpg",
     "static/media/2.jpg": "/amazing-coffee/static/media/2.e45a5566e3b3a8ab78e1.jpg",
     "static/media/206.png": "/amazing-coffee/static/media/206.3386c06d73008d8e7962.png",
     "static/media/7.jpg": "/amazing-coffee/static/media/7.9e8c04e0fb98b915bcd8.jpg",
+    "static/media/04.jpg": "/amazing-coffee/static/media/04.abd7d275236123b294a4.jpg",
     "static/media/Logotype.png": "/amazing-coffee/static/media/Logotype.a9543db56f243ca1ba7e.png",
+    "static/media/05.jpeg": "/amazing-coffee/static/media/05.fe7adef07b07416b25b9.jpeg",
+    "static/media/01.jpg": "/amazing-coffee/static/media/01.678a643effae99655ef5.jpg",
     "static/media/tim-hortons.svg": "/amazing-coffee/static/media/tim-hortons.e437ecc712eab04d634722584480ccc5.svg",
     "static/media/costa.svg": "/amazing-coffee/static/media/costa.1a68f729f7b395ded6ead4058b2f338d.svg",
     "static/media/starbucks.svg": "/amazing-coffee/static/media/starbucks.7939faca3e5c9eff07ac06684e4d1895.svg",
@@ -34,14 +43,17 @@
     "static/media/arrow.svg": "/amazing-coffee/static/media/arrow.c81a74b06902e570da79e7cda9f81103.svg",
     "static/media/Medal.svg": "/amazing-coffee/static/media/Medal.73513240138692f2ac357743674a627b.svg",
     "static/media/sun.svg": "/amazing-coffee/static/media/sun.9053a3a65ec30f42cebef57b3a730fb0.svg",
+    "static/media/phone.svg": "/amazing-coffee/static/media/phone.8a4fc1962be7c81eab3ecf6c35a8502a.svg",
+    "static/media/home.svg": "/amazing-coffee/static/media/home.3ed374db1ef0e66251b2cb6e9fd43939.svg",
     "static/media/close.svg": "/amazing-coffee/static/media/close.e6042815115b60542530e3b4c21a9eff.svg",
     "index.html": "/amazing-coffee/index.html",
+    "static/media/mail.svg": "/amazing-coffee/static/media/mail.42de0fc21dc9207889df81fb25572b70.svg",
     "static/media/mcdonalds.svg": "/amazing-coffee/static/media/mcdonalds.4f0a5d24204bf24b11e358ef81e56515.svg",
-    "main.2357c428.css.map": "/amazing-coffee/static/css/main.2357c428.css.map",
-    "main.3c672b55.js.map": "/amazing-coffee/static/js/main.3c672b55.js.map"
+    "main.4e839bcc.css.map": "/amazing-coffee/static/css/main.4e839bcc.css.map",
+    "main.1d0379cd.js.map": "/amazing-coffee/static/js/main.1d0379cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.2357c428.css",
-    "static/js/main.3c672b55.js"
+    "static/css/main.4e839bcc.css",
+    "static/js/main.1d0379cd.js"
   ]
 }
