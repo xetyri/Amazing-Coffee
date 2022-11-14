@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../views/Products/products.css'
+import '../SeedCoffee/seed_coffee.css'
 import CloseBtn from '../../svg/close.svg'
 
 const ModalRobusta = ({active, setActive}) => {

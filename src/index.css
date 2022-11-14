@@ -116,6 +116,25 @@ img {
     border-bottom: 3px solid rgb(255, 255, 255);
 }
 
+.scroll {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    background: rgb(21, 20, 20);
+    position: fixed;
+    right: 15vh;
+    bottom: 10vh;
+    transition: all 400ms ease;
+    opacity: 0.5;
+    z-index: 5;
+}
+
+.scroll:hover,
+.scroll:focus {
+    opacity: 0.8;
+}
+
 /*--------------------MEDIA---------------------*/
 
 @media screen and (max-width: 1024px){
@@ -138,6 +157,14 @@ img {
     .line {
         margin: 20px 0;
     }
+    .scroll {
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+        position: fixed;
+        right: 10vh;
+        bottom: 10vh;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -154,5 +181,13 @@ img {
 
     section >h2 {
         margin-bottom: 2rem;
+    }
+    .scroll {
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+        position: fixed;
+        right: 3vh;
+        bottom: 5vh;
     }
 }

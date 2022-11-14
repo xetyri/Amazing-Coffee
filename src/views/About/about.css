@@ -1,0 +1,157 @@
+.background-about {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/410.jpg) center no-repeat;
+    width: 100%;
+    height: fit-content;
+    top: 0;
+    background-size: cover;
+}
+
+.about-list {
+    display: block;
+    justify-content: center;
+    height: fit-content;
+}
+
+.about-title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 26vh;
+    padding-bottom: 5vh;
+}
+
+.about-title-width {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 5px 5px 5px black;
+}
+
+.about-subtitle {
+    padding: 20px 25px;
+    margin: 0 10%;
+    width: 80%;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.about-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 50px;
+    width: 70%;
+    margin: 50px 15%;
+    background: rgba(0, 0, 0, 0.459);
+    margin-bottom: 15vh;
+}
+
+.about-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.about-icon {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+img.contact {
+    animation: 3s linear 0s normal none infinite running contact;
+    -webkit-animation: 3s linear 0s normal none infinite running contact;
+}
+
+@keyframes contact {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+@-webkit-keyframes contact {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.contact-link{
+    color: white;
+    transition: all 400ms ease;
+}
+
+.contact-link:hover,
+.contact-link:focus{
+    color: #e9c181;;
+}
+
+.directors-title{
+    margin: 50px 0;
+}
+
+.form-title{
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-ul {
+        width: 70%;
+        margin: 50px 15%;
+        background: rgba(0, 0, 0, 0.459);
+        margin-bottom: 15vh;
+    }
+
+    .about-li {
+        font-weight: 400;
+        font-size: 1.3rem;
+    }
+
+    .about-icon {
+        width: 25px;
+        height: 25px;
+        margin: 12px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .about-title-width {
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+    .about-subtitle {
+        padding: 20px 25px;
+        margin: 0 5%;
+        width: 90%;
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+    .about-ul {
+        width: 90%;
+        margin: 50px 5%;
+        background: rgba(0, 0, 0, 0.459);
+        margin-bottom: 15vh;
+        padding: 10px 0;
+    }
+    .about-li {
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .about-icon {
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+    }
+}

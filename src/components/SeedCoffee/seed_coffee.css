@@ -7,6 +7,7 @@
     background-size: cover;
     margin-bottom: 10px;
 }
+
 .bg-seed {
     width: 450px;
     border-radius: 50%;
@@ -22,7 +23,7 @@
     margin-top: 20px;
 }
 
-.list-block-coffee{
+.list-block-coffee {
     padding-top: 20vh;
     padding-bottom: 10vh;
     width: 100%;
@@ -31,7 +32,7 @@
     justify-content: center;
 }
 
-.sort-block{
+.sort-block {
     width: 300px;
     margin: 20px;
     display: block;
@@ -39,7 +40,7 @@
     justify-content: center;
 }
 
-.sort-title{
+.sort-title {
     font-weight: 600;
     text-align: center;
     font-size: 5rem;
@@ -50,7 +51,7 @@
     align-items: center;
 }
 
-.sort-icon{
+.sort-icon {
     width: 70px;
     height: 70px;
     margin: 10px;
@@ -62,7 +63,9 @@ img.mountain {
 }
 
 @keyframes mountain {
-    0%,100% {
+
+    0%,
+    100% {
         transform: scale(1);
     }
 
@@ -72,12 +75,15 @@ img.mountain {
 }
 
 @-webkit-keyframes mountain {
-    0%,100% {transform: scale(1);
-       
+
+    0%,
+    100% {
+        transform: scale(1);
+
     }
 
     50% {
-         transform: scale(1.2);
+        transform: scale(1.2);
     }
 }
 
@@ -106,19 +112,19 @@ img.sun {
     }
 }
 
-.sort-sub{
+.sort-sub {
     font-weight: 400;
     font-size: 1.2rem;
     padding: 10px;
 }
 
-.position-sort-btn{
+.position-sort-btn {
     display: flex;
     justify-content: center;
     margin: 10px 0;
 }
 
-.sort-btn{
+.sort-btn {
     font-weight: 400;
     font-size: 1.2rem;
     padding: 15px 25px;
@@ -143,6 +149,7 @@ img.sun {
         height: 350px;
         margin-top: 20px;
     }
+
     .sort-block {
         width: 200px;
         margin: 20px;
@@ -158,11 +165,13 @@ img.sun {
         height: 50px;
         margin: 10px;
     }
+
     .sort-sub {
         font-weight: 300;
         font-size: 1rem;
         padding: 5px;
     }
+
     .sort-btn {
         font-weight: 400;
         font-size: 1rem;
@@ -170,14 +179,12 @@ img.sun {
     }
 }
 
-@media screen and (max-width: 600px) {
-
-}
+@media screen and (max-width: 600px) {}
 
 
 /*===================MODAL====================*/
 
-.modal{
+.modal {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -192,11 +199,11 @@ img.sun {
     visibility: hidden;
 }
 
-.modal.active{
+.modal.active {
     visibility: visible;
 }
 
-.modal__content{
+.modal__content {
     position: relative;
     padding: 20px;
     border-radius: 50px;
@@ -205,11 +212,11 @@ img.sun {
     border: 1px solid rgb(255, 255, 255);
 }
 
-.modal__content-arabica{
-    background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../../assets/15.jpg) center no-repeat;
+.modal__content-arabica {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../../assets/15.jpg) center no-repeat;
 }
 
-.modal__content-robusta{
+.modal__content-robusta {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../../assets/306.jpg) center no-repeat;
 }
 
@@ -225,21 +232,22 @@ img.sun {
     right: 20px;
 }
 
-.close-button{
+.close-button {
     width: 20px;
     height: 20px;
 }
+
 .close-button-block:hover,
 .close-button-blockn:focus {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.modal-title{
+.modal-title {
     position: absolute;
     font-weight: 600;
     text-align: center;
     font-size: 2rem;
-    top:5;
+    top: 5;
     left: 50%;
     transform: translateX(-50%);
     padding-bottom: 20px;
@@ -259,12 +267,13 @@ img.sun {
 
 @media screen and (max-width: 1024px) {
     .modal__content-arabica {
-        margin: 30px;
+        margin: 20px;
         width: 600px;
         height: fit-content;
     }
+
     .modal__content-robusta {
-        margin: 30px;
+        margin: 20px;
         width: 600px;
         height: fit-content;
     }
@@ -279,6 +288,7 @@ img.sun {
         width: 12px;
         height: 12px;
     }
+
     .modal-title {
         position: absolute;
         font-weight: 600;
@@ -292,5 +302,14 @@ img.sun {
         margin-top: 10vh;
         padding: 0 20px;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .modal-title {
+        position: absolute;
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.4rem;
     }
 }

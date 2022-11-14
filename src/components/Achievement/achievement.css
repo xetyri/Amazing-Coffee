@@ -20,7 +20,7 @@
     }
 
     20% {
-        background: url(../../assets/33.jpg) center;
+        background: url(../../assets/33.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
