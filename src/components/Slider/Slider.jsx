@@ -25,7 +25,7 @@ export function Slider() {
             <SwiperSlide className='slider-content'>
                 <img src={Taya} alt='Taya' className='slider-img' />
                 <div className='slider-subtitle'>
-                    <h3 className='slider-title'>Taisiya Zabolotnaya</h3>
+                    <h3 className='slider-title'>Taisiia Zabolotnia</h3>
                     <p>
                         - Thanks to the implementation of the process
                         approach, I achieved an increase in productivity
